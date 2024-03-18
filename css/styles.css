@@ -1,9 +1,3 @@
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
 .navbar a:hover {
     color: #0A003F
 }
@@ -38,7 +32,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 600px;
+    top: 500px;
     right: 20px;
     z-index: 1;
 }
