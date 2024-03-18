@@ -2,6 +2,10 @@
     color: #0A003F
 }
 
+nav div a {
+    color: #000000;
+}
+
 .navbar-brand-centered {
     position: absolute;
     left: 50%;
