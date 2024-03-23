@@ -20,7 +20,7 @@ nav div a {
     background-image: url("../img/logo\ pb.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 600px;
     width: 100%;
 }
 
@@ -50,11 +50,11 @@ nav div a {
 /* -----Carrousel----- */
 
 .carousel-item img {
-    width: 100%;
-    height: auto;
     clip-path: inset(20% 0 0 0);
-    margin-top: -10%;
+    height: 400px;
     margin-bottom: 0%;
+    margin-top: -10%;
+    width: 100%;
 }
 
 .carousel-caption {
@@ -138,6 +138,26 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        clip-path: inset(20% 0 0 0);
+        margin-top: -10%;
+        margin-bottom: 0%;
+    }
+    
+    .carousel-caption {
+        background: none;
+        box-sizing: border-box;
+        color: white;
+        left: 50%;
+        padding: 10px 20px;
+        position: absolute;
+        top: 10%;
+        transform: translateX(-50%);
+        width: 100%;
     }
 
     footer div a {
