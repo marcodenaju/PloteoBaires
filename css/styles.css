@@ -7,37 +7,38 @@ nav div a {
 }
 
 .navbar-brand-centered {
-    position: absolute;
     left: 50%;
+    position: absolute;
     transform: translateX(-50%);
 }
 
 /* portada con efecto parallax */
 
 .portada-index {
-    background-color: #ffffff;
-    height: 850px;
-    background-image: url("../img/logo\ pb.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
+    background-color: #ffffff;
+    background-image: url("../img/logo\ pb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
 }
 
 /* -----whatsapp----- */
 
 .caja-wp {
+    align-items: center;
     background-color: #0A003F;
-    min-width: 60px;
-    height: 60px;
     border-radius: 100px;
-    margin: 0;
     display: flex;
     flex-direction: column;
+    height: 60px;
     justify-content: center;
-    align-items: center;
+    margin: 0;
+    min-width: 60px;
     position: fixed;
-    top: 500px;
     right: 20px;
+    top: 500px;
     z-index: 1;
 }
 
@@ -57,47 +58,60 @@ nav div a {
 }
 
 .carousel-caption {
+    background: none;
+    box-sizing: border-box;
+    color: white;
+    left: 50%;
+    padding: 10px 20px;
     position: absolute;
     top: 10%;
-    left: 50%;
     transform: translateX(-50%);
-    color: white;
-    padding: 10px 20px;
-    box-sizing: border-box;
     width: 100%;
-    background: none;
 }
 
 /* -----formulario de contacto----- */
 
 .full-width-form {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
     max-width: 100%;
+    width: 100%;
 }
 
 .full-width-form input,
 .full-width-form textarea {
-    width: 100%;
     box-sizing: border-box;
+    width: 100%;
 }
+
+
+/* -----portfolio----- */
+
+
+.parent { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    }
+
 
 /* -----footer----- */
 
 .footer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 100px;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     gap: 50px;
-    flex-wrap: wrap
+    padding: 100px;
+    text-align: center;
 }
 
 footer div a {
-    color: #dcdcdc;
+    color: #000000;
 }
 
 footer div a:hover {
@@ -106,8 +120,13 @@ footer div a:hover {
 
 h3,
 h4 {
-    font-size: 12px;
     color: #000000;
+    font-size: 12px;
+}
+
+.contacto h3 a,
+.contacto h4 a {
+  text-decoration: none;
 }
 
 .texto-redes {
@@ -130,14 +149,19 @@ h4 {
     }
 
     h2 {
-        font-size: 18px;
         color: #000000;
+        font-size: 18px;
     }
 
     h3,
     h4 {
-        font-size: 12px;
         color: #000000;
+        font-size: 12px;
+    }
+    
+    .contacto h3 a,
+    .contacto h4 a {
+      text-decoration: none;
     }
 
     .texto-redes {
