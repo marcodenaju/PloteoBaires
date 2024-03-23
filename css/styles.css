@@ -17,11 +17,11 @@ nav div a {
 .portada-index {
     background-attachment: fixed;
     background-color: #ffffff;
-    background-image: url("../img/logo\ pb.jpg");
+    background-image: url("../img/logoportadapb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
-    width: 450px;
+    width: 100%;
 }
 
 /* -----whatsapp----- */
@@ -140,15 +140,7 @@ h4 {
         justify-content: space-between;
     }
 
-    .portada-index {
-        background-attachment: fixed;
-        background-color: #ffffff;
-        background-image: url("../img/logo\ pb.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 800px;
-        width: 100%;
-    }
+
 
     .carousel-item img {
         width: 100%;
