@@ -140,6 +140,16 @@ h4 {
         justify-content: space-between;
     }
 
+    .portada-index {
+        background-attachment: fixed;
+        background-color: #ffffff;
+        background-image: url("../img/logo\ pb.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+    }
+
     .carousel-item img {
         width: 100%;
         height: auto;
