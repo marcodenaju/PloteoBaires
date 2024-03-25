@@ -133,18 +133,13 @@ h4 {
     display: none
 }
 
+@media screen and (max-width: 768px) {
+    .portada-index {
+        height: 500px;
+    }
+
 @media (min-width: 768px) {
 
-    .portada-index {
-        background-attachment: fixed;
-        background-color: #ffffff;
-        background-image: url("../img/portadalogo.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
-    }
-    
     .footer {
         display: flex;
         flex-direction: row;
@@ -210,7 +205,7 @@ h4 {
     }
 }
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
 
     .portada-index {
         background-attachment: fixed;
@@ -220,6 +215,6 @@ h4 {
         background-repeat: no-repeat;
         width: 100%;
     }
-}
+} */
 
 ;
