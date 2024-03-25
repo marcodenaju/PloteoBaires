@@ -136,7 +136,7 @@ h4 {
 @media screen and (max-width: 768px) {
     .portada-index {
         height: 400px;
-        background-size: contain;
+        background-size: 50% auto;
         background-attachment: scroll;
     }
 
