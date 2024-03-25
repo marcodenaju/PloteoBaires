@@ -135,7 +135,9 @@ h4 {
 
 @media screen and (max-width: 768px) {
     .portada-index {
-        height: 500px;
+        height: 400px;
+        background-size: cover;
+        background-attachment: scroll;
     }
 
 @media (min-width: 768px) {
